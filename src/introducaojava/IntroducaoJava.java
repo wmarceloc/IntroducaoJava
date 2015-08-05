@@ -4,18 +4,23 @@
  * and open the template in the editor.
  */
 package introducaojava;
-
+import java.util.Scanner;
 /**
  *
  * @author sabado
  */
 public class IntroducaoJava {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+    Scanner teste = new Scanner (System.in);
+    System.out.println ("Informe um valor ");
+    int retorno = teste.nextInt();
+    while (retorno !=0){
+        
+    System.out.println("Informe outro Valor ");
+    retorno = teste.nextInt();
+            }
+    System.out.println("Informado com sucesso ");
+         
     }
-    
 }
