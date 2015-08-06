@@ -2,8 +2,8 @@
 package introducaojava;
 
 public class Aves {
-    String CorDasPenas = null;
-    int TamanhoDasPernas;
+    String CorPenas = null;
+    int TamanhoPernas;
     
     public int BotarOvo (){
         return 1;

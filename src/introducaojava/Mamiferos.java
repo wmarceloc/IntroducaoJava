@@ -6,5 +6,16 @@
 package introducaojava;
 
 public class Mamiferos {
+    String CorPelos = null;
+    int ComprimentoPelos;
     
+    
+    public int Sentar (){
+        return 1;
+    }
+    
+    public int Amamentar (){
+        return 1;
+    }
 }
+

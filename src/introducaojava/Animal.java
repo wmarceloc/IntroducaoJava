@@ -5,7 +5,7 @@ public class Animal {
 String nome;
 int idade;
 double peso;
-String CorDosOlhos;
+String CorOlhos;
 
 public int Comer ( ){
  return 1;
