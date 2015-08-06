@@ -7,11 +7,20 @@ int idade;
 double peso;
 String CorOlhos;
 
-public String Comer ( ){
-    int valorComida = 10;
-    String mensagem = "Ainda com fome";
+public String Comer (String mensagem ){
+    System.out.println("Quero Comer");
+    String resultado = "Mais";
+    if(this.mensagem != "Ainda com fome"){
+        System.out.println("Estou satisfeito");
+        resultado = "Obrigado";
+        
+    }else{
+    
     System.out.println("Ola, estou com fome, quero comer");
-    return mensagem;
+    return resultado;   
+    }
+    return null;
+    
  
 }       
 

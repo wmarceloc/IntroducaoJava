@@ -15,8 +15,7 @@ public class IntroducaoJava {
         
         Aves objetoPassaro = new Aves();
         String resultado = objetoPassaro.Comer();
-        System.out.println(resultado);
-        if (resultado =="Mais"){
+        if (resultado == "Ainda com fome"){
             System.out.println("Vou enviar mais comida");
         }
         
