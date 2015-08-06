@@ -6,7 +6,7 @@
 package introducaojava;
 
 
-public class Gatos {
+public class Gatos extends Mamiferos {
     public int Miar (){
         return 1;
     }

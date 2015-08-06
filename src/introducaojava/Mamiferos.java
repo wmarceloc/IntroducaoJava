@@ -5,7 +5,7 @@
  */
 package introducaojava;
 
-public class Mamiferos {
+public class Mamiferos extends Animal{
     String CorPelos = null;
     int ComprimentoPelos;
     

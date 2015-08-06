@@ -1,7 +1,7 @@
 
 package introducaojava;
 
-public class Aves {
+public class Aves extends Animal {
     String CorPenas = null;
     int TamanhoPernas;
     

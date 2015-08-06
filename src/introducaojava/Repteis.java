@@ -5,7 +5,7 @@
  */
 package introducaojava;
 
-public class Repteis {
+public class Repteis  extends Animal{
  String TipoEscamas = null;
  int ComprimentoCauda;
  
