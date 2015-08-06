@@ -7,6 +7,7 @@ package introducaojava;
 
 public class Repteis  extends Animal{
  String TipoEscamas = null;
+ 
  int ComprimentoCauda;
  
     public int Rastejar( ){
