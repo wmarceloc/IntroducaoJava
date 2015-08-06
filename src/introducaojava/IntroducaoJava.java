@@ -49,7 +49,57 @@ public class IntroducaoJava {
                 moonweight = earthweight*0.17;
                 
                 System.out.println(earthweight + " earth-pounds in equivalent to " + moonweight + " moon-pounds");
+            
+            case '4':
+                int x; // know to all code within main
+                x = 10;
+                if (x==10){// start new scope
+                    int y = 20;// known only to this block
+                    
+                    // x and y both known here
+                    System.out.println("x and y: "+x+""+y);
+                    x = y*2;
+                }
+            // y=100; // Error! y not known here
+            // x is still known here.
+            
+            System.out.println("x is " + x);
                 
+            case '5':
+                //listing 17 Demonstrate casting
+                double z,y;
+                byte b;
+                int i;
+                char ch;
+                
+                z=10.0;
+                y=3.0;
+                
+                i= (int)(z/y);//cast double to int
+                System.out.println("Integer outcome of z/y:" + i);
+                
+                i=100;
+                b=(byte)i;
+                System.out.println("Value of b: "+b);
+                
+                i= 257;
+                b =(byte)i;
+                System.out.println("Value of b: "+b);
+                
+                b=90; //ASCI code for z
+                ch = (char)b;
+                System.out.println("ch: "+ch);
+            
+                
+            case '6':
+               
+                ch = 'A';
+                System.out.println("ch contains "+ch);
+                ch++; //increment ch
+                System.out.println("ch is now "+ch);
+                ch=90;//give ch the value Z
+                System.out.println("ch is now " +ch);
+             
             default:
                 System.out.println("Selection not found");
                      
