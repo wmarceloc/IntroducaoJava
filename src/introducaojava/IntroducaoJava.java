@@ -6,6 +6,7 @@
 package introducaojava;
 
 import java.io.IOException;
+import java.lang.Math;
 //import java.util.Scanner;
 /**
  *
@@ -151,14 +152,27 @@ public class IntroducaoJava {
                 
                 m = l - k;//m now contains 1
                 System.out.println("m contains 1");
-                if(m>=0) System.out.println("m is non-negative");
+                if(m>=0) System. out.println("m is non-negative");
                 if(m<0) System.out.println("m is negative");
                 
-                
-                 default:
+                default:
                 System.out.println("Selection not found");
-               
+             
+                case '0':
                 
+                double num, sroot, rerr;
+                    for(num =1.0; num <100.0; num++){
+                        sroot = Math.sqrt(num);
+                        System.out.println("Square root of " + num + " is" + sroot);
+                        
+                        //compute rounding error SqrRoot
+                        
+                        rerr = num -(sroot * sroot);
+                        System.out.println("Rounding error is " + rerr);
+                        System.out.println();
+                        
+                      
+                     
                    
         }
         
