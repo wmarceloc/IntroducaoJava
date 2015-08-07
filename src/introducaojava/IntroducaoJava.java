@@ -100,8 +100,7 @@ public class IntroducaoJava {
                 ch=90;//give ch the value Z
                 System.out.println("ch is now " +ch);
              
-            default:
-                System.out.println("Selection not found");
+           
              
             case '7':
                 double gallons;
@@ -125,7 +124,7 @@ public class IntroducaoJava {
                 if(i!=j)System.out.println("i!=j");
                 if(i==j)System.out.println("This won't execute");
                 if(i>=j)System.out.println("This won't execute");
-                if(i>j)Syste.out.println("This won't execute");
+                if(i>j)System.out.println("This won't execute");
                 
                 b1=true;
                 b2=false;
@@ -135,7 +134,30 @@ public class IntroducaoJava {
                 if(b1 | b2) System.out.println("b1 | b2 is true");
                 if(b1 ^ b2)System.out.println("b1 ^ b2 is true");
                        
+            case '9':
+                int k, l, m = 0;
+                k=1;
+                l=2;
+                if(k<l)System.out.println("k is less than l");
+                // this won't display anything
+                if(k==l) System.out.println("you won't see this");
                 
+                System.out.println();
+                
+                System.out.println("m contains ~1");
+                if(m >=0)System.out.println("m is non-negative");
+                if(m <0)System.out.println("m is negative");
+                System.out.println();
+                
+                m = l - k;//m now contains 1
+                System.out.println("m contains 1");
+                if(m>=0) System.out.println("m is non-negative");
+                if(m<0) System.out.println("m is negative");
+                
+                
+                 default:
+                System.out.println("Selection not found");
+               
                 
                    
         }
